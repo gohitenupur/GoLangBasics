@@ -61,6 +61,9 @@ func main() {
 	fmt.Println("noOfUsers",noOfUsers)
 	fmt.Printf("Variable is of type : %T \n", noOfUsers);
 
+	fmt.Println(LoginToken)
+	fmt.Printf("Variable is of type : %T \n", LoginToken);
+
 
 
 }
