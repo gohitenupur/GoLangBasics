@@ -34,6 +34,9 @@ func main() {
 		// if itr ==5{
 		// 	break;
 		// }
+		if itr == 2{
+			goto val
+		}
 
 		if itr ==5 {
 			itr++
@@ -42,4 +45,7 @@ func main() {
 		fmt.Println("valie is",itr)
 		itr++;
 	}
+
+	val :
+	    fmt.Println("this is jump statement")
 }
