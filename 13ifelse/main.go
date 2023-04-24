@@ -18,6 +18,12 @@ func main() {
 
 	fmt.Println(result)
 
+	if num := 3;num %2 ==0 {
+		fmt.Println("number is even",num)
+	}else{
+		fmt.Println("number is odd",num)
+	}
+
    
 }
 
